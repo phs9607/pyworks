@@ -22,3 +22,5 @@ t.down()# 선 내리기
 
 polygon1(4, 80)
 polygon1(5, 100)
+
+t.mainloop()

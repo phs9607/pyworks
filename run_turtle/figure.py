@@ -22,3 +22,5 @@ t.left(120)
 
 #원 그리기
 t.circle(50)
+
+t.mainloop()
