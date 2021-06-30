@@ -1,4 +1,4 @@
-# abs() 직접 정의
+import math# abs() 직접 정의
 #절대값 알고리즘1
 def abs_sign(x):
     if x < 0:
