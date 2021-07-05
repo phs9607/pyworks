@@ -1,5 +1,5 @@
 #1번
-
+'''
 def is_odd(number):
     if number % 2 == 1 :
         return True
@@ -36,3 +36,31 @@ print("you""need""python")
 print("you"+"need"+"python")
 print("you","need","python")
 print("".join(["you","need","python"]))
+
+#5번
+f1 = open('test.txt', 'w')
+f1.write("Lite is too short")
+f1.close()
+
+f2 = open('test.txt', 'r')
+print(f2.read())
+f2.close()
+
+#6번
+user_input = input("저장할 내용을 입력하세요")
+f = open('test.txt', 'a')
+f.write(user_input)
+f.write('\n')
+f.close()
+'''
+#7번
+
+f = open('test.txt', 'r')
+body = f.read()
+f.close()
+
+body = body.replace('java', 'python')
+
+f= open('test.txt', 'w')
+f.write(body)
+f.close()
