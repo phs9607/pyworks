@@ -1,7 +1,7 @@
 # 여러개의 원 만들기
 import turtle as t
-
-t.speed(0)
+ 
+t.speed(0)   # speed 1 ~ 9, 0이 가장 빠름
 t.color('green')
 t.bgcolor('black')
 n = 50

@@ -1,3 +1,4 @@
+
 try:
     f = open('c:/pyfile/hello.txt', 'r')
     data = f.read()

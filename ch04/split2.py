@@ -1,4 +1,4 @@
-#split() 예제print(add)
+# split() 예제
 
 s = "a#b#c#d"
 s = s.split('#')

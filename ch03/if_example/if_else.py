@@ -5,5 +5,6 @@ if age >= 15:
     print("드라마 관람가")
 else:
     print("드라마 관람불가")
-
+    
 print("나이는 %d세입니다" % age)
+

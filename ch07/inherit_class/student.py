@@ -1,7 +1,8 @@
 from person import Person
+# Student 클래스 - 학번(stuid)
 class Student(Person):
     def __init__(self, name, age, stuid):
-        super().__init__(name,age)
+        super().__init__(name, age)
         self.stuid = stuid
 
     def showinfo(self):

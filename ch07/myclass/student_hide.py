@@ -1,15 +1,17 @@
-class Students:
+# 학생 클래스 생성과 사용
+class Student:
     def __init__(self, sid, name):
-        self.__sid = sid
-        self.__name = name
+        self.sid = sid      #학번
+        self.name = name
 
     def getsid(self):
-        return self.__sid
+        return self.sid
 
     def getname(self):
-        return self.__name
+        return self.name
 
-s1 = Students(1001, "김산")
+s1 = Student(1001, '김산')
+s1.sid = 1002
 print(s1.getsid(), s1.getname())
-s2 = Students(1002, "이강")
+s2 = Student(1002, '이강')
 print(s2.getsid(), s2.getname())

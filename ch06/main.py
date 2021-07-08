@@ -1,4 +1,4 @@
-from mymodule.calculator import add, sub, mul, div
+from mymodule.math.calculator import add, sub, mul, div
 
 add = add(10, 4)
 sub = sub(10, 4)

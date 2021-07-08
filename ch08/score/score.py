@@ -1,3 +1,4 @@
+
 with open('score.txt', 'a') as f:
     name = input("이름 입력 : ")
     kor = int(input("국어 점수 : "))
@@ -8,4 +9,3 @@ with open('score.txt', 'a') as f:
     f.write(str(kor) + ' ')
     f.write(str(math) + ' ')
     f.write(str(avg) + '\n')
-

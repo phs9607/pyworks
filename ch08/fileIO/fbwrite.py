@@ -1,4 +1,5 @@
 # 바이너리 파일 - 텍스트가 아닌 파일 - 음성, 영상, 이미지 파일
+
 with open('data.bin', 'wb') as f:
     text = "날씨가 덥다"
     f.write(text.encode())

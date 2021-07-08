@@ -6,8 +6,8 @@ for i in range(10):
     total = dice1 + dice2
     print(total)
     if total == 7:
-        print("seven Thrown")
+        print("Seven Thrown!")
     if total == 11:
-        print("eleven Thrown")
+        print("Eleven Thrown!")
     if dice1 == dice2:
-        print("double Thrown")
+        print("Double Thrown!")

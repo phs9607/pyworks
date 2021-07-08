@@ -1,9 +1,9 @@
 # Counter 클래스 - 클래스 변수 사용
-
 class Counter:
-    x = 0 #클래스 변수
+    x = 0    # 클래스 변수
+
     def __init__(self):
-        Counter.x = self.x + 1
+        Counter.x += 1
 
     def showinfo(self):
         print(self.x)

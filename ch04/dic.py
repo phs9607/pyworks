@@ -14,6 +14,6 @@ print(person)
 for key in person:
     print(person[key])
 
-# 요소 삭제 : dic.pop('address')와같음
+# 요소 삭제 : dic.pop('address')와 같음
 del person['address']
 print(person)

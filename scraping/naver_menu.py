@@ -9,3 +9,4 @@ lis = ul.find_all('li')
 for li in lis:
     a = li.find('a')
     print(a.text)
+

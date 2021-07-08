@@ -1,3 +1,4 @@
+# sys 모듈
 import sys
 
 args = sys.argv[1:]

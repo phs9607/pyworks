@@ -5,4 +5,4 @@ def getconn():
     conn = sqlite3.connect("c:/pydb/mydb.db")
     return conn
 
-# member db 에 연결하는 함수 - getconn()
+# member db에 연결하는 함수 - getconn()
